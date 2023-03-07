@@ -13,6 +13,7 @@ void loop() {
     digitalWrite(pin_led, HIGH);
     Serial.println("LED engegat");
     delay(500);
+    //Apagat
     digitalWrite(pin_led, LOW);
     Serial.println("LED apagat");
     delay(500);
